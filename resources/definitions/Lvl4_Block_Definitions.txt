@@ -1,0 +1,14 @@
+# default values for blocks
+default height:25 width:46 stroke:color(green)
+
+# block definitions
+bdef symbol:a hit_points:1 fill:image(background_images/dolar.png) stroke:color(green) 
+bdef symbol:b hit_points:4 fill:image(background_images/dolar.png) stroke:color(green) 
+bdef symbol:c height:90 width:100 hit_points:1 fill:color(gray)  
+#bdef symbol:r height:60 width:20 hit_points:2 fill:color(LightGray) 
+bdef symbol:m height:160 width:20 hit_points:1 fill:color(LightGray) 
+
+# spacers definitions
+sdef symbol:- width:50
+sdef symbol:_ width:20
+sdef symbol:. width:10
